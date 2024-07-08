@@ -1,13 +1,20 @@
 # OUABootcampFlutter9
 Oyun ve Uygulama Akademisi mezuniyet bootcampi grup 9.
+
 *TAKIM İSMİ*
+
 Flutter Grup 9
 
 *TAKIM ÜYELERİ*
+
 *Buse Abalı* – Scrum Master
+
 *Beliz Özboz* - Product Owner
+
 *Ebu Belk Akyıldız* – Developer
+
 *Efe Salur* – Developer
+
 *Efe Yalım* - Developer
 
 *UYGULAMA İSMİ*
@@ -30,6 +37,7 @@ https://trello.com/invite/b/1OPn6RFI/ATTIcc8b7b388480140fb5f17bfa8c2a1150E6744D4
 https://imgur.com/a/HAmoeGP
 
 *Sprint Board*: Güncel Sprint Board aşağıda paylaşılmıştır.
+
 ![backlog](https://github.com/efeylm/OUABootcampFlutter9/assets/173399121/42a7d974-4a63-4cdf-b237-7cc2ff249a38)
 
 
@@ -37,6 +45,7 @@ https://imgur.com/a/HAmoeGP
 
 
 *ÜRÜN DURUMU*
+
 ![Ekran görüntüsü 2024-07-06 093847](https://github.com/efeylm/OUABootcampFlutter9/assets/173399121/21ac0f9b-f232-4dbd-b756-0956671ae1b3)
 ![Ekran görüntüsü 2024-07-06 093942](https://github.com/efeylm/OUABootcampFlutter9/assets/173399121/ef6b2a12-b45c-4198-aec5-d6458fd04685)
 ![Ekran görüntüsü 2024-07-06 093923](https://github.com/efeylm/OUABootcampFlutter9/assets/173399121/2f10dc7f-7a08-45d6-90d7-81e2790dcad7)
