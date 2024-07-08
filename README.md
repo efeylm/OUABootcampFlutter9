@@ -30,17 +30,19 @@ https://trello.com/invite/b/1OPn6RFI/ATTIcc8b7b388480140fb5f17bfa8c2a1150E6744D4
 https://imgur.com/a/HAmoeGP
 
 *Sprint Board*: Güncel Sprint Board aşağıda paylaşılmıştır.
+![backlog](https://github.com/efeylm/OUABootcampFlutter9/assets/173399121/42a7d974-4a63-4cdf-b237-7cc2ff249a38)
 
 
-![Image](https://github.com/users/belizzz/projects/5/assets/173399121/eddfe002-af02-41dd-abcd-5c51b22f0ec2)
+
+
 
 *ÜRÜN DURUMU*
+![Ekran görüntüsü 2024-07-06 093847](https://github.com/efeylm/OUABootcampFlutter9/assets/173399121/21ac0f9b-f232-4dbd-b756-0956671ae1b3)
+![Ekran görüntüsü 2024-07-06 093942](https://github.com/efeylm/OUABootcampFlutter9/assets/173399121/ef6b2a12-b45c-4198-aec5-d6458fd04685)
+![Ekran görüntüsü 2024-07-06 093923](https://github.com/efeylm/OUABootcampFlutter9/assets/173399121/2f10dc7f-7a08-45d6-90d7-81e2790dcad7)
+![Ekran görüntüsü 2024-07-06 093942](https://github.com/efeylm/OUABootcampFlutter9/assets/173399121/1ccd1cf4-6230-4e37-bc65-81766c4b3c63)
 
 
-![Image](https://github.com/users/belizzz/projects/5/assets/173399121/72455d3c-1012-4c6c-b3d0-5c881354ad93)
-![Image](https://github.com/users/belizzz/projects/5/assets/173399121/04ce7378-a772-4ad1-a9bc-87b4302ea15a)
-![Image](https://github.com/users/belizzz/projects/5/assets/173399121/6fbe46c7-aacb-45ac-bf96-2fac86a57e82)
-![Image](https://github.com/users/belizzz/projects/5/assets/173399121/1695a0a0-6ab4-450f-b0e9-a570da672928)
 
  *SPRINT REVIEW*: 
 
