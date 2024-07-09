@@ -64,3 +64,7 @@ https://imgur.com/a/HAmoeGP
 - konu kararlaştırıldıktan sonra nasıl bir tasarım oluşturulacağına karar verilmiştir.
 - ürünün içeriği detaylı bir şekilde tartışılmıştır.
 - yeni takım arkadaşımızın görevine karar verilmiştir.
+
+- SPRINT NOTU
+
+- Figma UI tasarımlarında kullanılmasına karar verilmiştir .
