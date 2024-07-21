@@ -102,6 +102,7 @@ Sprint 2'nin son toplantısında Güncel Sprint Board gözden geçirilmiştir. �
 
 Sprint Review Katılımcıları: Buse Abalı, Beliz Özboz, Ebu Belk Akyıldız, Efe Salur, Efe Yalım
 
+
 *SPRINT RETROSPECTIVE*
 
 -Firebase bağlantıları ve tasarımı yapılması kararlaştırılmıştır.
