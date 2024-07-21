@@ -68,3 +68,16 @@ https://imgur.com/a/HAmoeGP
 - SPRINT NOTU
 
 - Figma UI tasarımlarında kullanılmasına karar verilmiştir .
+
+
+ ### *SPRINT 2*
+
+
+*Sprint 2 için tamamlanması tahmin edilen puan:* 100  Puan 
+
+*Puan tamamlama mantığı:* Proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. İkinci Sprint için 100 puan ile devam edilmesi kararlaştırılmıştır.
+
+
+Daily Scrum:: Daily Scrum'ın Whatsapp üzerinden yapılması kararlaştırılmıştır. Tasarım ekibi kendi içerisinde günlük bilgi paylaşımlarını yapıp gelişmeleri diğer takım üyeleri ile paylaşmıştır. Daily Scrum'lardan bazı ekran görüntüleri aşağıdaki link üzerinden paylaşılmıştır. [https://imgur.com/a/HAmoeGP](https://imgur.com/a/7MQt0DH)
+
+Sprint Board: Güncel Sprint Board
