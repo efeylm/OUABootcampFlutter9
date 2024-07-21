@@ -80,4 +80,38 @@ https://imgur.com/a/HAmoeGP
 
 Daily Scrum:: Daily Scrum'ın Whatsapp üzerinden yapılması kararlaştırılmıştır. Tasarım ekibi kendi içerisinde günlük bilgi paylaşımlarını yapıp gelişmeleri diğer takım üyeleri ile paylaşmıştır. Daily Scrum'lardan bazı ekran görüntüleri aşağıdaki link üzerinden paylaşılmıştır. [https://imgur.com/a/HAmoeGP](https://imgur.com/a/7MQt0DH)
 
-Sprint Board: Güncel Sprint Board
+*Sprint Board:* Güncel Sprint Board aşağıda paylaşılmıştır.
+
+![board2](https://github.com/user-attachments/assets/7eafa4b7-a4b0-4f55-a838-850e712b6968)
+
+
+*ÜRÜN DURUMU*
+
+![1](https://github.com/user-attachments/assets/3fc56af6-8e1d-44dc-8fca-998d96719ca0)
+![2](https://github.com/user-attachments/assets/8c8093aa-a7b6-4d71-ae68-e65745f78001)
+![3](https://github.com/user-attachments/assets/190080ee-fcc4-47c1-b451-904590d92d7a)
+![5](https://github.com/user-attachments/assets/f6af8a4e-4ad9-4869-8dd2-14407dc664b7)
+![4](https://github.com/user-attachments/assets/dcab07ed-103e-4a08-9979-9bdc6d97b616)
+![7](https://github.com/user-attachments/assets/27216b49-f175-40a5-9fb6-0f91f9a6379a)
+![6](https://github.com/user-attachments/assets/da51fe54-999d-46ff-bfd6-d087002a4a7c)
+![8](https://github.com/user-attachments/assets/2260fb93-4775-4e35-8fed-bd66f408dc46)
+
+*SPRINT REVIEW*
+
+Sprint 2'nin son toplantısında Güncel Sprint Board gözden geçirilmiştir. Ürün isminin kararlaştırılması ve logo tasarımı sonraki sprint'e kalmıştır.
+
+Sprint Review Katılımcıları: Buse Abalı, Beliz Özboz, Ebu Belk Akyıldız, Efe Salur, Efe Yalım
+
+*SPRINT RETROSPECTIVE*
+
+-Firebase bağlantıları ve tasarımı yapılması kararlaştırılmıştır.
+
+-PDF eklemek ve görüntülemek için paketler eklenmesi planlanmıştır.
+
+-Ürün ismi için takım üyelerinin fikri alınmıştır.
+
+-Ürün tasarımı büyük çoğunlukla tamamlanmıştır.
+
+
+
+
