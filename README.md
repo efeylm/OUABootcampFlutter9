@@ -87,14 +87,23 @@ Daily Scrum:: Daily Scrum'ın Whatsapp üzerinden yapılması kararlaştırılm�
 
 *ÜRÜN DURUMU*
 
+![login](https://github.com/user-attachments/assets/439a8933-12bf-4396-bb9a-4cfd82744b61)
+![register](https://github.com/user-attachments/assets/87b76dbf-eeb4-4006-a301-91fb0b74d6a0)
+
+
+tasarım görüntüleri
 ![1](https://github.com/user-attachments/assets/3fc56af6-8e1d-44dc-8fca-998d96719ca0)
 ![2](https://github.com/user-attachments/assets/8c8093aa-a7b6-4d71-ae68-e65745f78001)
 ![3](https://github.com/user-attachments/assets/190080ee-fcc4-47c1-b451-904590d92d7a)
 ![5](https://github.com/user-attachments/assets/f6af8a4e-4ad9-4869-8dd2-14407dc664b7)
+
 ![4](https://github.com/user-attachments/assets/dcab07ed-103e-4a08-9979-9bdc6d97b616)
 ![7](https://github.com/user-attachments/assets/27216b49-f175-40a5-9fb6-0f91f9a6379a)
 ![6](https://github.com/user-attachments/assets/da51fe54-999d-46ff-bfd6-d087002a4a7c)
 ![8](https://github.com/user-attachments/assets/2260fb93-4775-4e35-8fed-bd66f408dc46)
+
+
+
 
 *SPRINT REVIEW*
 
