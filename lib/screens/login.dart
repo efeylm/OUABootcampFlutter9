@@ -1,7 +1,9 @@
+import 'package:bootcampdeneme/auth.dart';
 import 'package:bootcampdeneme/screens/home.dart';
 import 'package:bootcampdeneme/screens/onboarding.dart';
 import 'package:bootcampdeneme/screens/register.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -11,6 +13,55 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+
+  AuthService _authService = AuthService();
+
+  /* Future signIn() async {
+    await FirebaseAuth.instance.signInWithEmailAndPassword(
+      email: _emailController.text.trim(),
+      password: _passwordController.text.trim(),
+    );
+  } */
+
+  Future signIn() async {
+    if (_emailController.text.trim().isEmpty ||
+        _passwordController.text.trim().isEmpty) {
+      // E-posta veya şifre alanları boşsa, kullanıcıya uyarı ver
+      final snackBar = SnackBar(
+        content: const Text('Lütfen e-posta ve şifrenizi girin.'),
+      );
+      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+      return; // İşlemi sonlandır
+    }
+
+    try {
+      final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(
+          email: _emailController.text.trim(),
+          password: _passwordController.text.trim());
+
+      if (credential.user == null) {
+        print("NULL NULL NULL");
+        Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (context) => HomePage()));
+      }
+    } on FirebaseAuthException catch (e) {
+      if (e.code == 'user-not-found') {
+        print('No user found for that email.');
+      } else if (e.code == 'wrong-password') {
+        print('Wrong password provided for that user.');
+      }
+    }
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    _emailController.dispose();
+    _passwordController.dispose();
+  }
+
   bool _isObscured = true;
   @override
   Widget build(BuildContext context) {
@@ -55,10 +106,11 @@ class _LoginPageState extends State<LoginPage> {
                   textAlign: TextAlign.center,
                 ),
               ),
-              const Padding(
+              Padding(
                 padding:
                     EdgeInsets.only(top: 8, bottom: 8, right: 40, left: 40),
                 child: TextField(
+                  controller: _emailController,
                   decoration: InputDecoration(
                       labelText: "E-posta",
                       border: OutlineInputBorder(),
@@ -73,6 +125,7 @@ class _LoginPageState extends State<LoginPage> {
                 padding: const EdgeInsets.only(
                     top: 8, bottom: 8, right: 40, left: 40),
                 child: TextField(
+                  controller: _passwordController,
                   obscureText: _isObscured,
                   decoration: InputDecoration(
                       suffixIcon: IconButton(
@@ -97,9 +150,44 @@ class _LoginPageState extends State<LoginPage> {
                 padding: const EdgeInsets.only(
                     top: 8, bottom: 8, right: 40, left: 40),
                 child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.of(context).pushReplacement(MaterialPageRoute(
-                        builder: (context) => const HomePage()));
+                  onPressed: () async {
+                    if (_emailController.text.isEmpty ||
+                        _passwordController.text.isEmpty) {
+                      final snackBar = SnackBar(
+                        content: const Text('Kullanıcı adı veya şifre eksik'),
+                      );
+                      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                    } else {
+                      _authService
+                          .signIn(_emailController.text.trim(),
+                              _passwordController.text.trim())
+                          .then((user) {
+                        if (user != null) {
+                          final snackBar = SnackBar(
+                            content: const Text('Giriş yapıldı'),
+                          );
+                          ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => HomePage()),
+                          );
+                        } else {
+                          final snackBar = SnackBar(
+                            content:
+                                const Text('Kullanıcı adı veya şifre hatalı'),
+                          );
+                          ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                        }
+                      }).catchError((error) {
+                        final snackBar = SnackBar(
+                          content:
+                              const Text('Giriş yapılırken bir hata oluştu'),
+                        );
+                        ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                      });
+                    }
+
+                    //signIn();
                   },
                   style: ElevatedButton.styleFrom(
                       fixedSize: const Size.fromHeight(50),

@@ -2,20 +2,22 @@ import 'package:bootcampdeneme/screens/login.dart';
 import 'package:bootcampdeneme/screens/onboarding.dart';
 import 'package:bootcampdeneme/screens/register.dart';
 import 'package:bootcampdeneme/screens/home.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 /// Flutter code sample for [NavigationBar].
-
-void main() => runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Onboarding(), //açılış sayfası
+      home: LoginPage(),
     );
   }
 }

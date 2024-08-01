@@ -49,9 +49,10 @@ class _HomePageState extends State<HomePage> {
       ),
       body: <Widget>[
         //Burası stack gibi
+
         /// Home page
         Card(
-          shadowColor: Color.fromARGB(0, 182, 20, 20),
+          shadowColor: const Color.fromARGB(0, 182, 20, 20),
           margin: const EdgeInsets.all(8.0),
           child: SizedBox.expand(
             child: Center(

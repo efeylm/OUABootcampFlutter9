@@ -1,3 +1,6 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:bootcampdeneme/auth.dart';
 import 'package:bootcampdeneme/screens/home.dart';
 import 'package:bootcampdeneme/screens/login.dart';
 import 'package:flutter/material.dart';
@@ -10,6 +13,15 @@ class RegisterPage extends StatefulWidget {
 }
 
 class _RegisterPageState extends State<RegisterPage> {
+  final TextEditingController _nameController = TextEditingController();
+  final TextEditingController _surnameController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _passwordAgainController =
+      TextEditingController();
+
+  AuthService _authService = AuthService();
+
   bool _isObscured = true;
   @override
   Widget build(BuildContext context) {
@@ -42,10 +54,11 @@ class _RegisterPageState extends State<RegisterPage> {
                   textAlign: TextAlign.center,
                 ),
               ),
-              const Padding(
+              Padding(
                 padding:
                     EdgeInsets.only(top: 8, bottom: 8, right: 40, left: 40),
                 child: TextField(
+                  controller: _nameController,
                   decoration: InputDecoration(
                       labelText: "Ad",
                       border: OutlineInputBorder(),
@@ -56,10 +69,11 @@ class _RegisterPageState extends State<RegisterPage> {
                               width: 2))),
                 ),
               ),
-              const Padding(
+              Padding(
                 padding:
                     EdgeInsets.only(top: 8, bottom: 8, right: 40, left: 40),
                 child: TextField(
+                  controller: _surnameController,
                   decoration: InputDecoration(
                       labelText: "Soyad",
                       border: OutlineInputBorder(),
@@ -70,10 +84,11 @@ class _RegisterPageState extends State<RegisterPage> {
                               width: 2))),
                 ),
               ),
-              const Padding(
+              Padding(
                 padding:
                     EdgeInsets.only(top: 8, bottom: 8, right: 40, left: 40),
                 child: TextField(
+                  controller: _emailController,
                   decoration: InputDecoration(
                       labelText: "E-posta",
                       border: OutlineInputBorder(),
@@ -88,6 +103,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 padding: const EdgeInsets.only(
                     top: 8, bottom: 8, right: 40, left: 40),
                 child: TextField(
+                  controller: _passwordController,
                   obscureText: _isObscured,
                   decoration: InputDecoration(
                       suffixIcon: IconButton(
@@ -113,8 +129,26 @@ class _RegisterPageState extends State<RegisterPage> {
                     top: 8, bottom: 8, right: 40, left: 40),
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.of(context).pushReplacement(MaterialPageRoute(
-                        builder: (context) => const HomePage()));
+                    if (_nameController.text.isEmpty ||
+                        _emailController.text.isEmpty ||
+                        _passwordController.text.isEmpty) {
+                      final snackBar = SnackBar(
+                        content: const Text(
+                            'Alanlardan en az birini boş bıraktınız !'),
+                      );
+                      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                    } else {
+                      _authService.createPerson(_nameController.text,
+                          _emailController.text, _passwordController.text);
+                      final snackBar = SnackBar(
+                        content: const Text('Kayıt olundu!'),
+                      );
+                      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                      Future.delayed(Duration(milliseconds: 700), () {
+                        Navigator.of(context).pop();
+                      });
+                      Navigator.pop(context);
+                    }
                   },
                   style: ElevatedButton.styleFrom(
                       fixedSize: const Size.fromHeight(50),
