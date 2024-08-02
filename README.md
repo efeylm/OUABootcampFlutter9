@@ -170,6 +170,7 @@ Daily Scrum:: Daily Scrum'ın Whatsapp üzerinden yapılması kararlaştırılm�
 
 
 *ÜRÜN DURUMU*
+
 ![son3](https://github.com/user-attachments/assets/a471594b-a73c-403c-a25f-6014a9332800)
 ![son2](https://github.com/user-attachments/assets/4416a640-e128-4414-9f72-19bf59c866ae)
 ![son1](https://github.com/user-attachments/assets/733fe791-d036-439f-b1fa-d02315cc09de)
