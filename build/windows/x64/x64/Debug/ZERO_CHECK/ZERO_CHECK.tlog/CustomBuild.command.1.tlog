@@ -1,0 +1,10 @@
+^G:\FLUTTER_PROJECTS\BOOTCAMPDENEME\BUILD\WINDOWS\X64\CMAKEFILES\F7AB473BF3FCA2EAE2D43C7746415743\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SG:/flutter_projects/bootcampdeneme/windows -BG:/flutter_projects/bootcampdeneme/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/flutter_projects/bootcampdeneme/build/windows/x64/bootcampdeneme.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
