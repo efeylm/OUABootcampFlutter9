@@ -1,11 +1,47 @@
 # OUABootcampFlutter9
-Oyun ve Uygulama Akademisi mezuniyet bootcampi grup 9.
+Oyun ve Uygulama Akademisi Mezuniyet Bootcamp Flutter Grup 9.
 
-*TAKIM İSMİ*
+***TAKIM İSMİ***
 
 Flutter Grup 9
 
-*TAKIM ÜYELERİ*
+***ÜRÜN İSMİ***
+
+KAĞITSIZ
+
+![logo](https://github.com/user-attachments/assets/9371aca7-3e27-49d8-80f5-2a1df0db6c12)
+
+
+***ÜRÜN AÇIKLAMASI***
+
+Kağıtsız, üniversite öğrencileri için özel olarak tasarlanmış bir mobil uygulamadır. Bu uygulama sayesinde öğrenciler, dilerlerse ders notlarını ve çıkmış sorularını yükleyebilir ya da hem kendi üniversitelerinin hem de başka üniversitelerin ders notlarına ve çıkmış sorularına kolayca erişebilirler. Kağıtsız, farklı üniversiteleri destekler. Eğitimde kağıtsız döneme adım atın ve ders notlarınızı dijital ortamda paylaşmanın ve erişmenin kolaylığını yaşayın.
+
+***ÜRÜN ÖZELLİKLERİ***
+
+- *Oturum Açma:* Kullanıcılar, hesap oluşturarak uygulamaya giriş yapabilirler.
+  
+- *Ders Notu Yükleme:* Öğrenciler, kendi ders notlarını uygulamaya yükleyebilirler.
+  
+- *Sınav Soruları:* Geçmiş sınav sorularına ve bu soruların hangi döneme ait olduğuna ulaşılabilir.
+  
+- *Dönem ve Ders Filtreleme:* Farklı dönemlere ve derslere ait notları kolayca bulma imkanı.
+  
+- *Not Yükleme:* Kullanıcılar, diğer öğrencilerin paylaştığı ders notlarına erişebilir ve kendi notlarını paylaşabilirler.
+  
+- *Ders Açıklamaları:* Ders notlarının altında kullanıcılar tarafından ilgili notun içeriği ile ilgili açıklamalar eklenebilir.
+
+- *Not Kaydetme:* Kullanıcılar, istedikleri notları kaydederek daha sonrasında kolay bir şekilde erişim sağlayabilirler.
+
+***HEDEF KİTLE***
+
+- Üniversite Öğrencileri
+- Ders Notlarını Paylaşmak İsteyen Öğretim Üyeleri
+  
+
+
+
+
+***TAKIM ÜYELERİ***
 
 *Buse Abalı* – Scrum Master
 
@@ -17,16 +53,10 @@ Flutter Grup 9
 
 *Efe Yalım* - Developer
 
-*UYGULAMA İSMİ*
 
 *PRODUCT BACKLOG URL*
 https://trello.com/invite/b/1OPn6RFI/ATTIcc8b7b388480140fb5f17bfa8c2a1150E6744D48/flutter-9
 
-*UYGULAMA AÇIKLAMASI*
-
-*UYGULAMA ÖZELLİKLERİ*
-
-*HEDEF KİTLE*
 
  ### *SPRINT 1*
 
@@ -124,4 +154,46 @@ Sprint Review Katılımcıları: Buse Abalı, Beliz Özboz, Ebu Belk Akyıldız,
 
 
 
+### *SPRINT 3*
 
+*Sprint 3 için tamamlanması tahmin edilen puan:* 140  Puan 
+
+*Puan tamamlama mantığı:* Proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. Son Sprint için 140 puan ile devam edilmesi kararlaştırılmıştır.
+
+
+Daily Scrum:: Daily Scrum'ın Whatsapp üzerinden yapılması kararlaştırılmıştır. Tasarım ekibi ve yazılım ekibi kendileri içerisinde günlük bilgi paylaşımlarını yapıp gelişmeleri diğer takım üyeleri ile paylaşmıştır. Daily Scrum'lardan bazı ekran görüntüleri aşağıdaki link üzerinden paylaşılmıştır. https://imgur.com/a/aCTIxxU
+
+*Sprint Board:* Güncel Sprint Board aşağıda paylaşılmıştır.
+
+
+![board3](https://github.com/user-attachments/assets/5e8267ed-cb70-4f9b-be20-5cd61532b0f5)
+
+
+*ÜRÜN DURUMU*
+![son3](https://github.com/user-attachments/assets/a471594b-a73c-403c-a25f-6014a9332800)
+![son2](https://github.com/user-attachments/assets/4416a640-e128-4414-9f72-19bf59c866ae)
+![son1](https://github.com/user-attachments/assets/733fe791-d036-439f-b1fa-d02315cc09de)
+![son4](https://github.com/user-attachments/assets/960c3ed6-8ef4-4a6e-850a-f04396d02812)
+![son5](https://github.com/user-attachments/assets/86869c42-2b19-435a-b586-71a680de7a2c)
+![son7](https://github.com/user-attachments/assets/071d8a3b-fcae-4040-b8e5-6df8c4d182ad)
+![son6](https://github.com/user-attachments/assets/b9b37838-8753-4682-9559-474f99d3dac5)
+
+*ÜRÜN VIDEOSU*
+
+https://youtu.be/dJH7d9L9T0o?si=nKWF0nDy5EIedl6G
+
+*SPRINT REVIEW*
+
+Sprint 3'ün son toplantısında Güncel Sprint Board gözden geçirilmiştir. Proje tamamlanıp ürün videosu çekilmiştir ve ürün teslim formu doldurulmuştur.
+
+Sprint Review Katılımcıları: Buse Abalı, Beliz Özboz, Ebu Belk Akyıldız, Efe Salur, Efe Yalım
+
+
+*SPRINT RETROSPECTIVE*
+
+- Login ve register sayfası firebase'e bağlandı
+- Üniversite seçme sayfası düzenlendi
+- Not seçme ekranı düzenlendi
+- Logo tasarımı yapıldı
+- Ürün ismi kararlaştırıldı
+  
