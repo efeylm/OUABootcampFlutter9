@@ -117,15 +117,14 @@ Daily Scrum:: Daily Scrum'ın Whatsapp üzerinden yapılması kararlaştırılm�
 
 
 tasarım görüntüleri
-![1](https://github.com/user-attachments/assets/3fc56af6-8e1d-44dc-8fca-998d96719ca0)
-![2](https://github.com/user-attachments/assets/8c8093aa-a7b6-4d71-ae68-e65745f78001)
-![3](https://github.com/user-attachments/assets/190080ee-fcc4-47c1-b451-904590d92d7a)
-![5](https://github.com/user-attachments/assets/f6af8a4e-4ad9-4869-8dd2-14407dc664b7)
-![4](https://github.com/user-attachments/assets/dcab07ed-103e-4a08-9979-9bdc6d97b616)
-![7](https://github.com/user-attachments/assets/27216b49-f175-40a5-9fb6-0f91f9a6379a)
-![6](https://github.com/user-attachments/assets/da51fe54-999d-46ff-bfd6-d087002a4a7c)
-![8](https://github.com/user-attachments/assets/2260fb93-4775-4e35-8fed-bd66f408dc46)
-
+![1](https://github.com/user-attachments/assets/c8004a83-8dd3-471e-8d92-d8f4809cacba)
+![2](https://github.com/user-attachments/assets/4fbe4c62-fbf3-4b6f-b83f-b0f430aea794)
+![5](https://github.com/user-attachments/assets/b620cb02-4e33-477f-b779-00d2013685c8)
+![4](https://github.com/user-attachments/assets/b50e83c6-7fd6-41e3-a293-bcabf90fdbb6)
+![3](https://github.com/user-attachments/assets/d3bd8b5c-60bc-47a0-a64c-6eec4eb72ff6)
+![7](https://github.com/user-attachments/assets/ad50d083-0b85-40be-bdec-55e4958c92fc)
+![6](https://github.com/user-attachments/assets/40752be0-3a18-4479-b276-999f4b83b3e3)
+![8](https://github.com/user-attachments/assets/07a557f6-6a54-4464-963b-117542bdc355)
 
 
 
