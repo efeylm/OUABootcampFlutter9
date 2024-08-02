@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "130472848749",
+    "project_id": "ouaflutterbootcamp-9",
+    "storage_bucket": "ouaflutterbootcamp-9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130472848749:android:64357057e3bba07ab6be64",
+        "android_client_info": {
+          "package_name": "com.example.bootcampdeneme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr9XEkfxv3YJohm1QMEB6MAoCVVXhqN6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
