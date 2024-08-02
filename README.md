@@ -121,7 +121,6 @@ tasarım görüntüleri
 ![2](https://github.com/user-attachments/assets/8c8093aa-a7b6-4d71-ae68-e65745f78001)
 ![3](https://github.com/user-attachments/assets/190080ee-fcc4-47c1-b451-904590d92d7a)
 ![5](https://github.com/user-attachments/assets/f6af8a4e-4ad9-4869-8dd2-14407dc664b7)
-
 ![4](https://github.com/user-attachments/assets/dcab07ed-103e-4a08-9979-9bdc6d97b616)
 ![7](https://github.com/user-attachments/assets/27216b49-f175-40a5-9fb6-0f91f9a6379a)
 ![6](https://github.com/user-attachments/assets/da51fe54-999d-46ff-bfd6-d087002a4a7c)
