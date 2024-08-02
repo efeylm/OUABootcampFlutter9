@@ -57,6 +57,17 @@ Kağıtsız, üniversite öğrencileri için özel olarak tasarlanmış bir mobi
 *PRODUCT BACKLOG URL*
 https://trello.com/invite/b/1OPn6RFI/ATTIcc8b7b388480140fb5f17bfa8c2a1150E6744D48/flutter-9
 
+*ÜRÜN İNDİRME LİNKİ*
+
+https://drive.google.com/file/d/1xjSFNHh6ws669tDm5P8VQKTSu6X0c9Ip/view?usp=sharing
+
+*ÜRÜN VIDEOSU*
+
+https://youtu.be/dJH7d9L9T0o?si=nKWF0nDy5EIedl6G
+
+
+
+
 
  ### *SPRINT 1*
 
@@ -179,9 +190,6 @@ Daily Scrum:: Daily Scrum'ın Whatsapp üzerinden yapılması kararlaştırılm�
 ![son7](https://github.com/user-attachments/assets/071d8a3b-fcae-4040-b8e5-6df8c4d182ad)
 ![son6](https://github.com/user-attachments/assets/b9b37838-8753-4682-9559-474f99d3dac5)
 
-*ÜRÜN VIDEOSU*
-
-https://youtu.be/dJH7d9L9T0o?si=nKWF0nDy5EIedl6G
 
 *SPRINT REVIEW*
 
