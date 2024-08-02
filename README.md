@@ -1,11 +1,41 @@
 # OUABootcampFlutter9
-Oyun ve Uygulama Akademisi mezuniyet bootcampi grup 9.
+Oyun ve Uygulama Akademisi Mezuniyet Bootcamp Flutter Grup 9.
 
-*TAKIM İSMİ*
+***TAKIM İSMİ***
 
 Flutter Grup 9
+ 
+***ÜRÜN İSMİ***
 
-*TAKIM ÜYELERİ*
+KAĞITSIZ
+
+***ÜRÜN AÇIKLAMASI***
+
+Kağıtsız, üniversite öğrencileri için özel olarak tasarlanmış bir mobil uygulamadır. Bu uygulama sayesinde öğrenciler, dilerlerse ders notlarını ve çıkmış sorularını yükleyebilir ya da hem kendi üniversitelerinin hem de başka üniversitelerin ders notlarına ve çıkmış sorularına kolayca erişebilirler. Kağıtsız, farklı üniversiteleri destekler. Eğitimde kağıtsız döneme adım atın ve ders notlarınızı dijital ortamda paylaşmanın ve erişmenin kolaylığını yaşayın.
+
+
+***ÜRÜN ÖZELLİKLERİ***
+
+- *Oturum Açma:* Kullanıcılar, hesap oluşturarak uygulamaya giriş yapabilirler.
+  
+- *Ders Notu Yükleme:* Öğrenciler, kendi ders notlarını uygulamaya yükleyebilirler.
+
+- *Sınav Soruları:* Geçmiş sınav sorularına ve bu soruların hangi döneme ait olduğuna ulaşılabilir.
+
+- *Dönem ve Ders Filtreleme:* Farklı dönemlere ve derslere ait notları kolayca bulma imkanı.
+
+- *Not Yükleme:* Kullanıcılar, diğer öğrencilerin paylaştığı ders notlarına erişebilir ve kendi notlarını paylaşabilirler.
+
+- *Ders Notu Açıklamaları:* Ders notu yükleyen kullanıcılar tarafından ders notlarının altında ilgili notun içeriği ile ilgili kısa bir açıklama eklenebilir.
+
+
+ ***HEDEF KİTLE***
+  - Üniversite Öğrencileri
+  - Ders Notlarını Yüklemek İsteyen Öğretim Üyeleri
+
+
+
+***TAKIM ÜYELERİ***
 
 *Buse Abalı* – Scrum Master
 
@@ -17,16 +47,11 @@ Flutter Grup 9
 
 *Efe Yalım* - Developer
 
-*UYGULAMA İSMİ*
 
 *PRODUCT BACKLOG URL*
 https://trello.com/invite/b/1OPn6RFI/ATTIcc8b7b388480140fb5f17bfa8c2a1150E6744D48/flutter-9
 
-*UYGULAMA AÇIKLAMASI*
 
-*UYGULAMA ÖZELLİKLERİ*
-
-*HEDEF KİTLE*
 
  ### *SPRINT 1*
 
@@ -121,6 +146,32 @@ Sprint Review Katılımcıları: Buse Abalı, Beliz Özboz, Ebu Belk Akyıldız,
 -Ürün ismi için takım üyelerinin fikri alınmıştır.
 
 -Ürün tasarımı büyük çoğunlukla tamamlanmıştır.
+
+
+ ### *SPRINT 3*
+
+*Sprint 3 için tamamlanması tahmin edilen puan:* 140  Puan 
+
+*Puan tamamlama mantığı:* Proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. Son Sprint için 140 puan ile devam edilmesi kararlaştırılmıştır.
+
+
+Daily Scrum:: Daily Scrum'ın Whatsapp üzerinden yapılması kararlaştırılmıştır. Tasarım ekibi kendi içerisinde günlük bilgi paylaşımlarını yapıp gelişmeleri diğer takım üyeleri ile paylaşmıştır. Daily Scrum'lardan bazı ekran görüntüleri aşağıdaki link üzerinden paylaşılmıştır. https://imgur.com/a/aCTIxxU
+
+*Sprint Board:* Güncel Sprint Board aşağıda paylaşılmıştır.
+ ![board3](https://github.com/user-attachments/assets/8c926fe1-b4ae-42b0-8d96-48dea85835a4)
+
+*ÜRÜN DURUMU*
+
+
+
+*SPRINT REVIEW*
+
+Sprint 2'nin son toplantısında Güncel Sprint Board gözden geçirilmiştir. Ürün ismi kararlaştırılmıştır ve logo tasarımı yapılmıştır. Ürün teslim formu doldurulmuştur.
+
+Sprint Review Katılımcıları: Buse Abalı, Beliz Özboz, Ebu Belk Akyıldız, Efe Salur, Efe Yalım
+
+
+*SPRINT RETROSPECTIVE*
 
 
 
