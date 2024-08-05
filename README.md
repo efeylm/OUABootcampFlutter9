@@ -206,3 +206,6 @@ Sprint Review Katılımcıları: Buse Abalı, Beliz Özboz, Ebu Belk Akyıldız,
 - Logo tasarımı yapıldı
 - Ürün ismi kararlaştırıldı
   
+*SPRINT NOTLARI*
+
+-Ürün genel hatlarıyla tamamlanmıştır. Eklenmesi beklenen ama süre yetmeyen özelliklerin sonraki aşamalarda eklenmesine karar verilmiştir.
